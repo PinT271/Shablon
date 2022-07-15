@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    background: #000;
+    display: flex;
+    position: relative;
+}
+.header__logo{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 178px;
+}
+nav{
+    margin-top: 56px;
+    margin-left: 435px;
+}
+.topnav a{
+    color: #fff;
+    text-align: center;
+    padding: 12px 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.topnav a:hover{
+    border-bottom: 3px solid #ff9933;
+}
+.topnav .icon{
+    display: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .main__welcome{
+    background-color: #000;
+    text-align: center;
+    padding: 200px 0 420px 0;
+}
+main .main__welcome p{
+    color: #999999;
+    font-size: 20px;
+}
+main .main__welcome h1{
+    color: #999999;
+    font-size: 44px;
+}
+.mycompany{
+    color: #ff9933;
+}
+.year, .people{
+    color: #cccccc;
+}
+h1.right__header{
+    font-size: 34px;
+    font-weight: 300;
+    padding: 0 0 20px 0;
+    border-bottom: 4px solid #ff9933;
+    display: inline-block;
+}
+span.aboutus{
+    font-weight: bold;
+}
+p.description__right{
+    font-size: 18px;
+    font-weight: 400;
+    color: #999999;
+    margin: 30px 0 50px 0;
+}
+ul.list{
+    margin-top: 45px;
+    font-size: 18px;
+}
+span.name__list{
+    font-weight: bold;
+    color: #666666;
+}
+span.right__list{
+    color: #666666;
+    font-style: italic;
+    font-weight: 400;
+}
+.wrapper{
+    width: 1130px;
+    margin: 0 auto;
+}
+main .main__about{
+    display: flex;
+    padding: 101px 0 101px 0;
+}
+.about__right{
+    margin-left: 175px;
+}
+.about__right li{
+    list-style-image: url(marker.png);
+    list-style-position: inside;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+.mw-100{
+    min-width: 100%;
+}
+.main__team{
+    background-color: #000;
+    text-align: center;
+    padding: 99px 0 165px 0;
+    color: #fff;
+}
+.main__team h1{
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+/* .line{
+    width: 99px;
+    height: 3px;
+    background-color: #ff9933;
+    position: relative;
+    left: 45.6%;
+    margin-bottom: 85px;;
+}*/
+h1::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 30px;
+    border-bottom: 3px solid #ff9933;
+}
+.about__right h1::after{
+    display: none;
+}
+.main__welcome h1::after{
+    display: none;
+}
+.photo{
+    background: #cccccc;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-left: 59px;
+    margin-bottom: 20px;
+}
+.team__cards{
+    display: flex;
+    margin-top: 90px;
+}
+.about__position{
+    font-size: 14px;
+    padding-top: 30px;
+    font-weight: lighter;
+}
+.name{
+    font-size: 20px;
+}
+.position{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.card{
+    margin: 0 20px;
+}
+.services__cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.main__services h1{
+    text-align: center;
+    padding: 98px 0px 30px 0;
+    font-size: 44px;
+    font-weight: bold;
+}
+.main__services p{
+    font-style: italic;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 100px;
+}
+p.paragraph__services{
+    margin-top: 50px;
+}
+.services__card h4{
+    margin: 28px 0 15px 0;
+}
+.main__clients{
+    background-color: #000;
+    padding: 97px 0 208px 0;
+    color: #fff;
+    text-align: center;
+}
+.main__clients h1{
+    font-size: 44px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+span.our__clients{
+    font-weight: bold;
+}
+.main__clients img{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.main__testimonials{
+    background-color: #000;
+    padding: 99px 0 174px 0;
+    color: #fff;
+    text-align: center;
+}
+p.book{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.main__testimonials h1{
+    font-size: 44px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.main__testimonials span{
+    font-weight: bold;
+}
+p.author{
+    color: #666666;
+}
+.author span{
+    color: #999999;
+}
+.main__work{
+    display: flex;
+    text-align: center;
+    padding: 98px 0 100px 0;
+}
+.main__work h1{
+    margin-bottom: 32px;
+    font-size: 44px;
+    font-weight: bolder;
+}
+span.take__look{
+    font-weight: lighter;
+}
+p.work__paragraph{
+    font-style: italic;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 50px;
+}
+.gallery{
+    margin: 180px 0 100px 0;
+}
+ .line1, .line2, .line3{
+    margin-bottom: 10px;
+}
+.line1 img{
+    margin-left: 10px;
+}
+.line2 img{
+    margin-left: 10px;
+}
+.line3 img{
+    margin-left: 10px;
+}
+.main__work img:hover{
+    opacity: 0.9;
+}
+.contact__wrapper{
+    width: 750px;
+    margin: 0 auto;
+    color: #999999;
+}
+.red{
+    color: red;
+}
+.form__inputs{
+    display: flex;
+    margin-top: 80px;
+}
+input{
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+textarea{
+    height: 162px;
+    width: 100%;
+}
+input, textarea{
+    border: 1px solid #999999;
+    margin-top: 5px;
+}
+input:first-of-type{
+    margin-right: 28px;
+}
+.button__block{
+    display: flex;
+    justify-content: flex-end;
+}
+input[type=submit] {
+    width: 164px;
+    height: 40px;
+    background-color: #ff9933;
+    color: #fff;
+    margin-right: 0;
+    margin-top: 30px;
+}
+.main__contact{
+    margin-bottom: 100px;
+}
+.main__contact h1, p{
+    text-align: center;
+}
+.main__contact h1{
+    font-size: 44px;
+    font-weight: bold;
+    padding-top: 100px;
+    margin-bottom: 30px;
+    color: #000;
+}
+.main__contact p{
+    margin-top: 55px;
+    font-style: italic;
+    font-size: 16px;
+    color: #666666;
+}
+form p{
+    text-align: left;
+}
+footer{
+    width: 100%;
+    background-color: #333333;
+    height: 88px;
+    padding: 50px 0 5px 0;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    margin-left: 16px;
+}
+.social img:hover{
+    opacity: 0.6;
+}
+
+
+@media screen and (max-width: 1385px) {
+    nav{
+        margin-left: 350px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    nav{
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    nav{
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+    }
+    .topnav.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    header .topnav.responsive{
+        height: 340px;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    main .main__welcome{
+        padding: 50px 0 50px 0;
+    }
+    main .main__welcome p{
+        font-size: 14px;
+    }
+    main .main__welcome h1{
+        font-size: 25px;
+    }
+    .mw-100{
+        max-width: 100%;
+    }
+    .main__about{
+        flex-direction: column;
+    }
+    .about__right{
+        text-align: center;
+        margin-left: 0;
+    }
+    .about__right li{
+        text-align: left;
+    }
+    .about__right h1{
+        font-size: 20px;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+    .team__cards{
+        flex-direction: column;
+    }
+    .photo{
+        margin-left: 44.72%;
+    }
+    .card{
+        margin-top: 30px;
+    }
+    .services__cards{
+        grid-template-columns: auto;
+    }
+    .line1 img:not(:first-child){
+        display: none;
+    }
+    .line2 img:not(:first-child){
+        display: none;
+    }
+    .line3 img:not(:first-child){
+        display: none;
+    }
+}
